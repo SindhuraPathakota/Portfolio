@@ -132,7 +132,7 @@
 		}
 
 	strong, b {
-		color: darkviolet;
+		color: black;
 		font-weight: 400;
 	}
 
@@ -142,10 +142,11 @@
 
 	p {
 		margin: 0 0 2em 0;
+		color: black;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: darkviolet;
+		color: midnightblue;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
@@ -2069,7 +2070,7 @@
 	}
 
 	label {
-		color: darkviolet;
+		color: midnightblue;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
@@ -2250,7 +2251,7 @@
 /* Box */
 
 	.box {
-		background: #fff;
+		background: whitesmoke;
 		border-radius: 6px;
 		box-shadow: 0 2px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
@@ -3178,7 +3179,10 @@
 		}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: red;
+			color:black;
+			font-weight: normal;
+			font-family: serif;
+			font-style: italic;
 		}
 
 		#banner h2 {
@@ -3191,6 +3195,7 @@
 		#banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
+			color: white;
 		}
 
 		#banner input[type="submit"],
@@ -3372,7 +3377,7 @@
 	/* EDUCATION */
 
 	#education {
-		background: cadetblue;
+		background: lightseagreen;
 		color: black;
 		padding: 3em 0 3em 0;
 		text-align: center;
